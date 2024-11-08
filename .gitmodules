@@ -1,0 +1,9 @@
+[submodule "kernel"]
+	path = kernel
+	url = https://github.com/seL4/seL4
+[submodule "tools"]
+	path = tools
+	url = https://github.com/seL4/seL4_tools
+[submodule "util_libs"]
+	path = util_libs
+	url = https://github.com/seL4/util_libs
