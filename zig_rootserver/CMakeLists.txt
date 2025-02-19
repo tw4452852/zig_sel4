@@ -22,7 +22,7 @@ set(ZIG_BUILD_OPTIONS
 
 add_custom_command(
   OUTPUT "${PROJECT_BINARY_DIR}/bin/zig_rootserver"
-  COMMAND zig build  "${ZIG_BUILD_OPTIONS}"
+  COMMAND zig build "${ZIG_BUILD_OPTIONS}"
   COMMENT STATUS "Building zig rootserver"
   WORKING_DIRECTORY "${PROJECT_SOURCE_DIR}"
   DEPENDS ${SOURCES} sel4
