@@ -6,3 +6,6 @@ default:
 
 clean:
 	rm -fr ./build
+
+run:
+	./build/simulate -i ./build/images/rootserver-image-arm-qemu-arm-virt

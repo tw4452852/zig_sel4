@@ -14,5 +14,5 @@ make
 ## Running
 
 ```
-cd ./build && ./simulate
+make run
 ```
